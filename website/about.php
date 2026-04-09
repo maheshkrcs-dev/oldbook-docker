@@ -35,15 +35,15 @@ require('include/security.inc.php');
 
                     <h5 class="mt-5 text-center">Meet Our Team</h5>
                     <div class="text-center my-4">
-                        <img src="image/team.jpg" class="rounded-circle" style="width: 180px; height: 180px; object-fit: cover;" alt="Team">
-                        <h5 class="mt-3">M Kumar</h5>
+                        <img src="image/profile.jpg" class="rounded-circle" style="width: 180px; height: 180px; object-fit: cover;" alt="Team">
+                        <h5 class="mt-3">Mahesh Kumar</h5>
                         <p class="text-muted">Founder & Developer</p>
                     </div>
 
                     <h5 class="mt-4">Our Contact Details</h5>
                     <ul class="list-unstyled">
-                        <li><strong>Phone:</strong> +91 8709365153</li>
-                        <li><strong>Email:</strong> mkumar870936@gmail.com</li>
+                        <li><strong>Phone:</strong> +91 8210038549</li>
+                        <li><strong>Email:</strong> maheshkr.cs@gmail.com</li>
                         <li><strong>Address:</strong> Rajiv Nagar, Patliputra, Patna - 800013</li>
                         <li><strong>Website:</strong> <a href="title.php">OldBook.com</a></li>
                     </ul>
