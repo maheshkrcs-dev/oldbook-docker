@@ -1,0 +1,66 @@
+/* Layout */
+body {
+    font-family: Arial, sans-serif;
+}
+
+.admin-wrapper {
+    display: flex;
+}
+
+/* Sidebar */
+.sidebar {
+    width: 220px;
+    background: #1e293b;
+    color: white;
+    min-height: 100vh;
+    padding: 20px;
+}
+
+.sidebar h3 {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.sidebar a {
+    display: block;
+    color: #cbd5f5;
+    padding: 10px;
+    margin: 5px 0;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.sidebar a:hover {
+    background: #334155;
+    color: white;
+}
+
+/* Content */
+.content {
+    flex: 1;
+    padding: 20px;
+    background: #f1f5f9;
+}
+
+/* Cards */
+.card-box {
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+}
+
+/* Table */
+.table img {
+    border-radius: 5px;
+}
+
+/* Buttons */
+.btn-danger {
+    background: #ef4444;
+    border: none;
+}
+
+.btn-danger:hover {
+    background: #dc2626;
+}

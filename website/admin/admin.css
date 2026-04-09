@@ -1,0 +1,106 @@
+/* ===== PAGE ===== */
+body {
+    font-family: 'Segoe UI', sans-serif;
+    background: #f1f5f9;
+    padding: 20px;
+}
+
+/* ===== TITLE ===== */
+h2 {
+    margin-bottom: 20px;
+    font-weight: 600;
+    color: #0f172a;
+}
+
+/* ===== TABLE ===== */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    background: #fff;
+    border-radius: 12px;
+    overflow: hidden;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.08);
+}
+
+/* HEADER */
+th {
+    background: #0f172a;
+    color: #fff;
+    padding: 12px;
+    text-align: left;
+    font-size: 14px;
+}
+
+/* ROWS */
+td {
+    padding: 12px;
+    vertical-align: middle;
+    border-bottom: 1px solid #e2e8f0;
+}
+
+/* HOVER */
+tr:hover {
+    background: #f8fafc;
+}
+
+/* IMAGE */
+td img {
+    width: 70px;
+    height: 90px;
+    object-fit: cover;
+    border-radius: 6px;
+}
+
+/* STATUS */
+.status {
+    padding: 4px 10px;
+    border-radius: 20px;
+    font-size: 12px;
+    font-weight: 500;
+    display: inline-block;
+}
+
+.pending {
+    background: #facc15;
+    color: #92400e;
+}
+
+.approved {
+    background: #16a34a;
+    color: #fff;
+}
+
+.rejected {
+    background: #dc2626;
+    color: #fff;
+}
+
+/* ACTION BUTTONS */
+.action-btn {
+    padding: 5px 10px;
+    border-radius: 6px;
+    text-decoration: none;
+    font-size: 13px;
+    font-weight: 500;
+    margin-right: 5px;
+}
+
+/* APPROVE */
+.approve-btn {
+    background: #16a34a;
+    color: #fff;
+}
+
+.approve-btn:hover {
+    background: #15803d;
+}
+
+/* REJECT */
+.reject-btn {
+    background: #dc2626;
+    color: #fff;
+}
+
+.reject-btn:hover {
+    background: #b91c1c;
+}
