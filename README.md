@@ -31,7 +31,7 @@ This project is fully containerized using Docker for easy deployment and migrati
 ```bash
 git clone https://github.com/maheshkrcs-dev/oldbook-docker.git
 cd oldbook-docker
-docker-compose up -d
+docker compose up -d --build
 ```
 
 ---
