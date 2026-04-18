@@ -1,6 +1,5 @@
-version: '3.8'
-
 services:
+
   web:
     build: .
     container_name: my_web
@@ -17,8 +16,10 @@ services:
     restart: always
     environment:
       MYSQL_ROOT_PASSWORD: root123
+      MYSQL_DATABASE: oldbook
     volumes:
       - db_data:/var/lib/mysql
+      - ./db:/docker-entrypoint-initdb.d
 
   phpmyadmin:
     image: phpmyadmin/phpmyadmin
